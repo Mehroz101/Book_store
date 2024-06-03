@@ -1,0 +1,65 @@
+.card{
+    /* min-width: 300px; */
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    color: #313131;
+    margin: 0 20px;
+    transition: all 0.2s ease;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.card-body{
+    margin-top: 10px;
+    padding: 10px;
+}
+.card-title{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+.badge-new{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #4a8f0a;
+    padding: 2px 4px;
+    color: white;
+    border-radius: 25px;
+
+}
+.card-body p{
+    margin: 10px 0;
+    text-align: left;
+    line-height: 25px;
+    font-size: 16px;
+}
+.card-actions{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.card-actions .badge{
+    border: 1px solid black;
+    padding: 4px 6px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+img{
+    width: 100%;
+}
+.buynow{
+    cursor: pointer;
+    border-radius: 2px !important;
+    padding: 5px 10px !important;
+    transition: all 0.2s ease;
+
+}
+.buynow:hover{
+    background-color: #4a8f0a;
+    border: 1px solid #4a8f0a;
+    color: white;
+   
+}

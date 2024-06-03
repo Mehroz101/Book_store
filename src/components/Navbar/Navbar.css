@@ -1,0 +1,113 @@
+nav{
+    /* background-color: #F8F8FF; */
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+    /* overflow-x: hidden; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    padding: 20px 0px;
+    margin: 0 auto;
+    /* background-color: #5c5cff; */
+    
+}
+.navSticky{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 4;
+    background-color: #fbfbfb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.navbar .nav_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.input{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 2px;
+    border: 1px solid #e6e6f7;
+}
+
+.navitems{
+    display: flex;
+    align-items: center;
+
+}
+.nav_right .navitems ul{
+    display: flex;
+}
+.nav_right ul li{
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.nav_right .signin_btn button{
+    background-color: #5c5cff;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.nav_bars{
+    display: none;
+    font-size: 20px;
+}
+
+@media (max-width:980px) {
+    nav{
+        position: relative;
+    }
+    .nav_right{
+        flex-direction: column;
+        position: absolute;
+        background-color: #ebebf2;
+        width: 100vw;
+        left: 0;
+        gap: 10px;
+        top: 100%;
+        display: none !important;
+        overflow: hidden;
+        z-index: 4;
+        padding: 10px 0;
+
+    }
+    .navitems{
+        flex-direction: column-reverse;
+    }
+    .input{
+        width:75vw ;
+    }
+    .show {
+        display: flex !important;
+    }
+    .nav_right .navitems ul{
+        flex-direction: column;
+
+    }
+    .nav_right .navitems ul li{
+        padding: 10px 0;
+        text-align: center;
+        width: 100vw;
+        /* border-bottom: 1px solid; */
+        cursor: pointer;
+    }
+    .nav_bars{
+        display: block;
+    }
+    
+}

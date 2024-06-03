@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "J.K. Rowling",
+        "title": "Harry Potter and the Sorcerer's Stone: A Magical Beginning",
+        "price": 0.00,
+        "category": "free",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?t=st=1717161871~exp=1717165471~hmac=b128fd7818d1c82ab7f1cbe12c4ce04c0b3757cd2bfcfa4b13a80d64bf08d413&w=740"
+    },
+    {
+        "id": 2,
+        "name": "George Orwell",
+        "title": "1984: A Dystopian Classic",
+        "price": 15.99,
+        "category": "paid",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?t=st=1717161871~exp=1717165471~hmac=b128fd7818d1c82ab7f1cbe12c4ce04c0b3757cd2bfcfa4b13a80d64bf08d413&w=740"
+    },
+    {
+        "id": 3,
+        "name": "J.R.R. Tolkien",
+        "title": "The Hobbit: There and Back Again",
+        "price": 9.99,
+        "category": "paid",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?t=st=1717161871~exp=1717165471~hmac=b128fd7818d1c82ab7f1cbe12c4ce04c0b3757cd2bfcfa4b13a80d64bf08d413&w=740"
+    },
+    {
+        "id": 4,
+        "name": "F. Scott Fitzgerald",
+        "title": "The Great Gatsby: A Timeless Novel of the Jazz Age",
+        "price": 0.00,
+        "category": "free",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?t=st=1717161871~exp=1717165471~hmac=b128fd7818d1c82ab7f1cbe12c4ce04c0b3757cd2bfcfa4b13a80d64bf08d413&w=740"
+    },
+    {
+        "id": 5,
+        "name": "Harper Lee",
+        "title": "To Kill a Mockingbird: A Story of Justice",
+        "price": 25.00,
+        "category": "paid",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?t=st=1717161871~exp=1717165471~hmac=b128fd7818d1c82ab7f1cbe12c4ce04c0b3757cd2bfcfa4b13a80d64bf08d413&w=740"
+    },
+    {
+        "id": 6,
+        "name": "Jane Austen",
+        "title": "Pride and Prejudice: A Classic Romance",
+        "price": 12.50,
+        "category": "paid",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?t=st=1717161871~exp=1717165471~hmac=b128fd7818d1c82ab7f1cbe12c4ce04c0b3757cd2bfcfa4b13a80d64bf08d413&w=740"
+    },
+    {
+        "id": 7,
+        "name": "Mark Twain",
+        "title": "Adventures of Huckleberry Finn: A Journey Down the Mississippi",
+        "price": 0.00,
+        "category": "free",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?t=st=1717161871~exp=1717165471~hmac=b128fd7818d1c82ab7f1cbe12c4ce04c0b3757cd2bfcfa4b13a80d64bf08d413&w=740"
+    },
+    {
+        "id": 8,
+        "name": "Mary Shelley",
+        "title": "Frankenstein: The Modern Prometheus",
+        "price": 8.99,
+        "category": "paid",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?t=st=1717161871~exp=1717165471~hmac=b128fd7818d1c82ab7f1cbe12c4ce04c0b3757cd2bfcfa4b13a80d64bf08d413&w=740"
+    },
+    {
+        "id": 9,
+        "name": "Herman Melville",
+        "title": "Moby-Dick: The Whale",
+        "price": 19.99,
+        "category": "paid",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?t=st=1717161871~exp=1717165471~hmac=b128fd7818d1c82ab7f1cbe12c4ce04c0b3757cd2bfcfa4b13a80d64bf08d413&w=740"
+    },
+    {
+        "id": 10,
+        "name": "Charlotte Brontë",
+        "title": "Jane Eyre: An Autobiography",
+        "price": 0.00,
+        "category": "free",
+        "img": "https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?t=st=1717161871~exp=1717165471~hmac=b128fd7818d1c82ab7f1cbe12c4ce04c0b3757cd2bfcfa4b13a80d64bf08d413&w=740"
+    }
+]

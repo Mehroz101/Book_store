@@ -1,0 +1,26 @@
+
+.card-container {
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px auto;
+}
+
+.card-container h1 {
+  font-size: 35px;
+  /* background-color: aquamarine; */
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card-container p {
+  text-align: center;
+  /* width: 300px; */
+}
+.slider{
+    /* background-color: aquamarine; */
+    margin-top: 50px;
+}
+.slider-container{
+    width: 85vw;
+}

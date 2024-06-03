@@ -1,0 +1,98 @@
+.signup_popup {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.popup_box {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 4px;
+  box-shadow: 8px 12px 4px -5px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Adjust width as needed */
+}
+.popupshow {
+  display: none !important;
+}
+.popup_box i {
+  align-self: flex-start;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.popup_box h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #5c5cff;
+  margin: 10px 0;
+  align-self: center;
+}
+
+.popup_box .input {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin-bottom: 10px;
+  width: 90%; /* Set width of input container to 90% */
+  align-self: flex-start; /* Center the input container */
+}
+
+.popup_box .input label {
+  margin-bottom: 5px; /* Space between the label and the input */
+  font-size: 14px; /* Adjust the font size of the label */
+  text-align: left; /* Ensure the text is left-aligned */
+  align-self: flex-start; /* Ensure the label is aligned to the start of the flex container */
+  padding: 0 10px;
+}
+
+.popup_box form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%; /* Ensure form takes full width of popup box */
+  align-items: center; /* Center the form elements */
+}
+
+.popup_box input {
+  padding: 10px;
+  align-self: flex-start;
+  font-size: 16px;
+  border-radius: 4px; /* Optional: Add some border radius for better visuals */
+  width: 100%; /* Set input fields to take full width of input container */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+.popup_box .input_wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ccc; /* Add a border to the input fields */
+}
+.popup_box .input_wrapper i {
+  padding: 15px;
+}
+
+.popup_box input.btn {
+  border: none;
+  background-color: #5c5cff;
+  color: white;
+  padding: 10px; /* Ensure the button has some padding */
+  font-size: 16px; /* Match the font size with other inputs */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  width: 100%; /* Set width of button to 90% */
+  align-self: center; /* Center the button */
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.popup_box .signup {
+  font-size: 14px;
+  text-align: center;
+}
+.popup_box .signup .signup_link {
+  color: #5c5cff;
+}
